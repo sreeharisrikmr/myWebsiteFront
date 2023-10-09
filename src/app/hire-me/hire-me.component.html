@@ -1,0 +1,28 @@
+<div class="container">
+    <h1 class="heading">Contact Me</h1>
+    <div class="contactrow">
+        <div class="col-left">
+            <p><i class="fa-solid fa-paper-plane"></i>sreeharisrikmr@outlook.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>+918848995297</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/sreeharisrikmr?mibextid=ZbWKwL"><i
+                        class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/sreeharisreekumar"><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+
+
+
+        <div class="col-right">
+            <form (ngSubmit)="contact()" [formGroup]="contactmeForm">
+                <input name="name" formControlName="name" type="text" placeholder="Your Name" required>
+                <input name="email" formControlName="email" type="email" placeholder="Your Email " required>
+                <textarea name="message" formControlName="message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Send</button>
+            </form>
+        </div>
+    </div>
+</div>

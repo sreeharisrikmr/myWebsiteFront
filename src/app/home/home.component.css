@@ -1,0 +1,23 @@
+.row{
+    display: flex;
+    margin: 50px;
+}
+.about-col2 img{
+    width: 350px;
+    transition: background 0.5s, transform 0.5s ;
+}
+.about-col2 img:hover{
+    transform: translateY(-10px);
+}
+.about-col1{
+    width: 900px;
+    padding: 100px;
+    text-align: justify;
+}
+.about-container{
+    background-color:#edf2fc;
+    padding-bottom: 100px;
+}
+.info{
+    background-color:#edf2fc
+}
